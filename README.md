@@ -1,7 +1,6 @@
 # Web-Development-Experiment
-======
 
-This repository is dedicated to experimenting with web developing
+This repository is dedicatedw to experimenting with web developing
 
 What i'm gonna do here
 

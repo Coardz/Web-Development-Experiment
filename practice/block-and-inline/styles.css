@@ -1,0 +1,15 @@
+div {
+    outline: 5px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.box-1 {
+    background-color: red;
+}
