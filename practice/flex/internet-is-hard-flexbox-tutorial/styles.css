@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    /* text color */
+    color: #fff; 
+    /* background color */
+    background-color: #5995DA; 
+    /* top and bottom padding is = 20 | left and right padding = 0 */
+    padding: 20px 0; 
+
+    display: flex;
+    /* center the items */
+    justify-content: center; 
+}
+
+.menu {
+    /* FOR DEBUGGING ONLY */
+    /* border: 1px solid #fff;      */
+    width: 900px;
+    justify-content: space-between  ;
+    display: flex;
+}
+
+.links {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    /* icons and text colors */
+    color: #5995DA;
+    /* background color */
+    background-color: #D6E9FE;
+    /* make it flex */
+    display: flex;
+    /* center the item */
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.first-item{
+    order: 1;
+}
+
+.last-item{
+    order: -1;
+}
+
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+}
+
+.sign-up {
+    margin-left: auto;
+}
+
+.main-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.row-item {
+    height: 200px;
+    background-color: tomato;
+    outline: 1px solid lightgreen;
+    flex: 1;
+}
+
+.row-two {
+    display: flex;
+}
+
+.row-item div {
+    margin: 20px;
+    height: auto;
+    background-color: black;
+    outline: 1px solid white;
+    flex: 1;
+}
+
+.movie-container {
+    display: flex;
+    align-content: center;
+}
+
+.movie-item {
+    height: 200px;
+    background-color: lightpink;
+    border: white 2px solid;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.holder {
+    background-color: #fff;
+    display: flex;
+    align-items: stretch;
+}
+
+.holder .extra-movie {
+    height: 40%;
+    background-color: lightpink;
+    flex: 1;
+    outline: 2px solid black;
+
+}

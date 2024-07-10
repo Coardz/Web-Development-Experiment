@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    background-color: lightgreen;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-container div {
+    margin: 0 10px;
+    /* border: 1px solid black; */
+    font-weight: bold;
+    font-size: 90px;
+    color: white;
+}
+
+.store-container {
+    background-color: lightsalmon;
+    /* height: 300px; */
+    /* border: 1px solid black; */
+    display: flex;
+    height: 300px;
+    align-items: center;
+    border: 2px black solid;
+}
+
+.store-container div {
+    height: 200px;
+    background-color: tomato;
+    border: 1px solid black;
+    flex: 1;
+}
+
+.store-container div p {
+    margin: 5px;
+    color: black;
+}
+
+.store-container div .main {
+    font-size: 30px;
+    text-align: center;
+}
+
+.store-container div .desc, .store-container div .price {
+    font-size: 20px;
+}

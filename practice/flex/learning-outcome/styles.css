@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation-container {
+    /* turns color into white */
+    color: #fff;
+    
+    /* background color */
+    background-color: lightgreen;
+    
+    /* 20 top and bottom this made space */
+    padding: 20px 0;
+
+    display: flex;
+
+    /* this center the navigation */
+    justify-content: center;
+}
+
+.navigation {
+    /* Debugging */
+    /* border: 2px white solid; */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation div {
+    font-family: "Open Sans";
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.socials {
+    /* Dubugging */
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.discord {
+    margin-left: 20px;
+}

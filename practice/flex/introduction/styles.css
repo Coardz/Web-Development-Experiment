@@ -1,0 +1,34 @@
+    * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+.flex-container div {
+    height: 100px;
+    border: 4px black solid;
+    background-color: palegreen;
+    flex: 1;
+}
+
+.three {
+    display: flex;
+}
+
+.three div {
+    margin: 5px;
+    height: 50px;
+    background-color: cornflowerblue;
+    flex: 1;
+}
+
+.three div p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
