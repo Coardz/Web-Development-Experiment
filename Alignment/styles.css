@@ -1,0 +1,36 @@
+
+
+.card {
+    width: 300px; /* Adjust width as needed */
+    border-radius: 15px;
+    overflow: hidden; /* Ensures content stays within the rounded corners */
+    background-color: white; /* The background color of the card content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+}
+
+.card-image {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.card-content {
+    padding: 15px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -5px; /* This overlaps the card conten  t slightly on the image */
+}
+
+.card-title {
+    margin: 0 0 10px;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.card-label {
+    margin: 0;
+    font-size: 0.9em;
+    color: #777;
+}
